@@ -1,6 +1,8 @@
+#!/usr/bin/env python3
 # [file name]: purify-es-deb.py
 # [directory]: ./ (Project Root)
 import os
+import re
 
 def purify_relative_manifest(filename="established-source.txt"):
     print(f"⚜️ Initiating Relative Alchemical Purification on {filename}...")
@@ -32,7 +34,6 @@ def purify_relative_manifest(filename="established-source.txt"):
     content = content.replace('\\./', './')
 
     # Ensure consistent ./ prefix
-    import re
     content = re.sub(r'(\n)\.\\', r'\1./', content)
 
     output_name = f"PURIFIED-{filename}"
