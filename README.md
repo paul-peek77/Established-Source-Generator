@@ -179,14 +179,17 @@ Design Philosophy
 The Established Source System is built around three principles:
 
 1. Deterministic Output
+
 The manifest is sorted, stable, and predictable.
 Running the generator twice on the same project yields identical results.
 
 2. Text‑First Approach
+
 Readable content is preserved.
 Binary files are acknowledged but not embedded.
 
 3. Cross‑Platform Consistency
+
 Both OS versions follow the same conceptual workflow while respecting platform differences:
 
 - path separators
