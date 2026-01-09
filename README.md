@@ -1,10 +1,14 @@
-# Established Source System, v1.0
+## Established Source System
 
-This project is provided for portfolio review only. No permission is granted for reuse, modification, or redistribution.
+#### The Established Source System is a cross‑platform utility for generating a complete, text‑based manifest of a project directory. The manifest captures file paths, readable content, and structural information in a standardized format suitable for archival, analysis, and reconstruction.
 
-Overview
+---
 
-The Established Source System is a cross‑platform utility for generating a complete, text‑based manifest of a project directory. The manifest captures file paths, readable content, and structural information in a standardized format suitable for archival, analysis, and reconstruction.
+*This project is provided for portfolio review only. No permission is granted for reuse, modification, or redistribution.*
+
+---
+
+#### Overview
 
 The system includes:
 
@@ -25,11 +29,12 @@ This project demonstrates:
 
 ---
 
-Components
+#### Components
 
 The Established Source System consists of four primary tools, each implemented for both Debian and Windows environments.
 
 1. Manifest Generator (gen-es-*.py)
+
 Creates established-source.txt by:
 
 - walking the project directory
@@ -51,6 +56,7 @@ The Windows version focuses on consistent relative paths and UTF‑8 handling.
 ---
 
 2. Site‑Map Generator (gen-sm-*.py)
+
 Produces a simple, ordered site-map.txt listing all files in the project.
 
 Useful for:
@@ -96,7 +102,7 @@ This ensures correct path handling and consistent reconstruction on each platfor
 
 ---
 
-Usage
+#### Usage
 
 Generate a Manifest
 
@@ -174,7 +180,7 @@ Both scripts will:
 
 ---
 
-Design Philosophy
+#### Design Philosophy
 
 The Established Source System is built around three principles:
 
@@ -198,7 +204,7 @@ Both OS versions follow the same conceptual workflow while respecting platform d
 
 ---
 
-Limitations
+#### Limitations
 
 - Binary files are not restored (placeholders only).
 - .doc and .docx extraction depends on optional tools.
@@ -207,7 +213,7 @@ Limitations
 
 ---
 
-Purpose
+#### Purpose
 
 This system was created to support:
 
@@ -216,5 +222,3 @@ This system was created to support:
 - deterministic reconstruction
 - archival workflows
 - cross‑platform development environments
-
-It also serves as a demonstration of systems thinking, automation, and developer tooling design.
