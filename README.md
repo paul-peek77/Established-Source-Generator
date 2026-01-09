@@ -1,6 +1,6 @@
-## Established Source System
+## The Established Source System
 
-#### The Established Source System is a cross‑platform utility for generating a complete, text‑based manifest of a project directory. The manifest captures file paths, readable content, and structural information in a standardized format suitable for archival, analysis, and reconstruction.
+#### A cross‑platform utility for generating a complete, text‑based manifest of a project directory. The manifest captures file paths, readable content, and structural information in a standardized format suitable for archival, analysis, and reconstruction.
 
 ---
 
