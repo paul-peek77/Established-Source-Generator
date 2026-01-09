@@ -68,6 +68,7 @@ Useful for:
 ---
 
 3. Purifier (purify-es-*.py)
+
 Cleans and normalizes an existing manifest.
 
 The purifier:
@@ -81,7 +82,8 @@ This ensures the manifest is safe for restoration on the intended platform.
 
 ---
 
-4. Restorers (restore-es-deb.py and restore-es-win.py)
+4. Restorers (restore-es-*.py)
+
 The restoration process is platform‑specific.
 
 Each OS has its own restorer:
