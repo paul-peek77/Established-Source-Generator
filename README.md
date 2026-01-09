@@ -1,3 +1,5 @@
+##### Not long ago, before cloud storage and rag systems swept over the world of AI, there was...
+
 ## The Established Source System
 
 #### A cross‑platform utility for generating a complete, text‑based manifest of a project directory. The manifest captures file paths, readable content, and structural information in a standardized format suitable for archival, analysis, and reconstruction.
